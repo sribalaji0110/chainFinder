@@ -18430,6 +18430,10 @@ strong {
   padding: 75px 0px;
 }
 
+.email {
+  color: #fff;
+}
+
 .bg-blue h3 {
   font-size: 30px;
   font-weight: 700;
