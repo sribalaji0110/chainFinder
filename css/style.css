@@ -12121,11 +12121,11 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 .twm-home1-banner-section .twm-gradient-text {
-  font-size: 150px;
+  font-size: 68px;
   line-height: 110px;
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 48%;
   transform: translateX(-50%);
   z-index: 1;
   font-weight: 800;
@@ -18418,4 +18418,124 @@ strong {
   background: -webkit-linear-gradient(-45deg, #46c6fb 0%, #2e429f 100%);
   background: linear-gradient(135deg, #46c6fb 0%, #2e429f 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#46c6fb", endColorstr="#2e429f", GradientType=1)
+}
+
+.solutions-section-three {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-blue {
+  background: #4e0a87;
+  padding: 75px 0px;
+}
+
+.bg-blue h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.bg-blue a.read-more {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.solution-item-three p {
+  line-height: 35px;
+}
+
+.text-white .sub-title {
+  color: #fff;
+  background: #5d46ef;
+}
+
+.sub-title {
+  line-height: 1.4;
+  font-weight: 600;
+  padding: 7px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background: #f3f1fe;
+  display: inline-block;
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+
+.bg-blue .title {
+  color: #fff;
+}
+
+.bg-blue .sub {
+  padding-bottom: 40px;
+}
+
+.delay-0-2s {
+  -webkit-animation-delay: .2s;
+  -o-animation-delay: .2s;
+  animation-delay: .2s;
+}
+
+.solution-item-three>i {
+  height: 85px;
+  width: 85px;
+  z-index: 1;
+  font-size: 38px;
+  line-height: 85px;
+  background: #fff;
+  position: relative;
+  border-radius: 7px;
+  margin-bottom: 44px;
+  display: inline-block;
+  color: #3898e2;
+}
+
+.fa-compass:before {
+  content: "\f14e";
+}
+
+.solution-item-three>i:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  left: 10px;
+  top: 10px;
+  z-index: -1;
+  opacity: .15;
+  position: absolute;
+  border-radius: 7px;
+  border: 1px solid #ddd;
+}
+
+.solution-item-three {
+  padding: 0 50px;
+  margin-bottom: 50px;
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@media (max-width: 767px) {
+  .bg-blue .title {
+    font-size: 30px;
+  }
+
+  .bg-blue .sub {
+    max-width: 85%;
+    margin: 0px auto;
+  }
+
+  .bg-blue h3 {
+    font-size: 23px;
+  }
+
+  .solution-item-three p {
+    line-height: 30px;
+  }
+
+
 }
