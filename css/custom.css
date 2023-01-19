@@ -1,0 +1,22 @@
+.site-button {
+    margin-right: 15px;
+    margin-top: 15px
+}
+
+img.purple-person {
+    height: 45px;
+    position: relative;
+    left: -6px;
+}
+
+.twm-bnr-blocks.twm-bnr-blocks-position-5 {
+    position: absolute;
+    z-index: 4;
+    right: 12px;
+    bottom: 389px;
+}
+
+.twm-bnr-blocks.twm-bnr-blocks-position-4 {
+    bottom: 22px;
+    z-index: 9;
+}

@@ -2714,7 +2714,7 @@ ol li {
 .header-style-3 .logo-header {
   display: table;
   float: left;
-  width: 190px;
+  width: 135px;
   height: 70px;
   vertical-align: middle;
   padding: 0;
@@ -3390,6 +3390,8 @@ ol li {
   z-index: -1;
   transition: .5s all ease
 }
+
+
 
 @media (max-width: 575px) {
   .header-full-width .header-nav-btn-section .twm-nav-btn-right .twm-nav-post-a-job {
@@ -11899,8 +11901,10 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 .twm-home1-banner-section>.row .twm-bnr-left-section .twm-bnr-discription {
   font-size: 18px;
-  margin-bottom: 30px
+  margin-bottom: 15px
 }
+
+
 
 .twm-home1-banner-section .twm-bnr-right-section {
   position: relative
@@ -14941,6 +14945,7 @@ strong {
   margin-left: auto;
   margin-right: auto
 }
+
 
 .twm-home3-banner-section .twm-home3-inner-section .twm-bnr-mid-section .twm-bnr-popular-search {
   position: relative;
@@ -18542,4 +18547,9 @@ strong {
   }
 
 
+}
+
+.twm-bnr-discription a.site-button.find-out {
+  margin-top: 10px;
+  margin-right: 10px;
 }
